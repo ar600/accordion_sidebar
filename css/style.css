@@ -1,0 +1,81 @@
+
+/* Ali Rashidian 
+alex.80.ra@gmail.com */
+.left{
+  width: 30%;
+  line-height: 3rem;
+}
+
+.right{
+  width: 65%;
+  margin-left: 0.8em;
+}
+
+.header{
+  height: 5rem;
+}
+
+/* chevron icons  */
+.nav .material-icons{
+  font-size: 1.7rem;
+  vertical-align: middle;
+  margin-top: 0.4em;
+}
+/* changing color of buttons to yellow when hovering */
+li:hover{
+  background-color: #FFFF00;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.current{
+  border-radius: .5rem;
+  background-color: #FFFF00;
+}
+
+
+/* removing underlines from link anchors */
+a {
+    text-decoration: none !important;
+    color: #000;
+}
+
+
+
+/* mobile diplay for accordion */
+@media only screen and (min-width: 556px){
+  .show-phone{
+    display: none;
+  }
+}
+@media only screen and (max-width: 555px){
+  .hide-desktop{
+    display: none;
+  }
+  .show-phone {
+    display: block;
+  }
+  .card-header:hover{
+    background-color: #FFFF00;
+  }
+
+  h4{
+    font-size: 1.35rem;
+  }
+
+  .card-block{
+    margin: 0px 1.2em;
+  }
+/* +sign */
+.title > a:before {
+    float: right !important;
+    content:"\2212";
+}
+
+/* for the - sign */
+  .title > a.collapsed:before {
+    float: right !important;
+    content:"\002B";
+  }
+}
+/* ================================ */
